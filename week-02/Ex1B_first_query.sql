@@ -1,0 +1,3 @@
+/*
+The sakila data base appears to be used for a movie rental system
+*/
