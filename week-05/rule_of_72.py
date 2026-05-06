@@ -10,10 +10,10 @@ year = 72 / interest_rate
 # Double savings
 new_amount = savings * 2
 
-# result
-print("current saving is $" + str(savings))
-print(" At a " + format(interest_rate, ".0%") + " interest rate, saving account")
-print("worth $" + format(new_amount) + " in " + str(year) + "years")
+# result using f-string
+print(f"current savings is ${savings}")
+print(f" At a {interest_rate}% interest rate, saving account will be")
+print(f"worth ${new_amount}  in {year:.1f} years")
 
 # observations
 # input() reads values as text (strings)
