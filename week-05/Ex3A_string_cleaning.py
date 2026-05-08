@@ -19,4 +19,4 @@ print(name_3.title())
 
 # remove the dollar sign
 clean_salary_1 = salary_1.replace("$","")
-clean_salary_2 = salary_2.replace("$", "")
+clean_salary_2 = salary_2.replace("$", "")E
