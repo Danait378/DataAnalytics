@@ -1,0 +1,23 @@
+sales_data = [
+    ("Marcus Webb", "East", 4250.00),
+    ("Priya Sharma", "West", 5875.50),
+    ("DeShawn Carter", "East", 3100.75),
+    ("LaTonya Rivers", "South", 6420.00),
+    ("Bob Nguyen", "West", 4980.25),
+]
+
+total_sales = 0
+
+for person in sales_data:
+    name = person [0]
+    region = person[1]
+    sales = person[2]
+
+    print(name + " (" + region + "): $" + str(sales))
+
+    if sales > 5000:
+        print("Top performer!")
+
+    total_sales = total_sales + sales
+
+print("Overall sales: $" + str(total_sales))
